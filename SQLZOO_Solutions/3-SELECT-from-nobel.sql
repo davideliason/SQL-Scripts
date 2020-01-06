@@ -38,3 +38,14 @@ Give the name of the 'Peace' winners since the year 2000, including 2000.
 SELECT winner FROM nobel
 WHERE yr >= 2000
 AND subject = 'Peace'
+
+#5
+/*
+Show all details (yr, subject, winner) of the Literature prize winners for 1980 to 1989 inclusive.
+*/
+
+SELECT yr, subject, winner
+FROM nobel
+WHERE yr >= 1980
+AND yr <= 1989
+AND subject = 'Literature'
