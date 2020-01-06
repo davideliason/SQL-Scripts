@@ -22,3 +22,9 @@ SELECT name, population/1000000
 FROM world
 WHERE continent = 'South America'
 
+#5
+/*
+Show the name and population for France, Germany, Italy
+*/
+
+
